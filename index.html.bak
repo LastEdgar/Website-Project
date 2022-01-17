@@ -11,16 +11,16 @@
 		<div>
 			<div>
 				<ul>
-					<li>HOME</li>
-					<li>GALLERY</li>
-					<li>RESERVATIONS</li>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
 			</div>
 		</div>
 		<!--Navigation End-->
 		
 		<!--Home Page-->
-		<div>
+		<div id="home">
 			<div>
 				<div>
 					<span>The Space Station</span>
@@ -31,13 +31,14 @@
 		
 		<!--Gallery Section-->
 		<section>
-			<div>
+			<div id="gallery">
 				<h1>Gallery</h1>
 				<div>
 				
 					<!--Photo-Container 1-->
 					<div>
 						<div>
+							<img src="./images/thumb/thumbnail_1.jpg" alt="" width="300" height="250">
 							<div>
 								<h3>Click to Enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
@@ -45,6 +46,102 @@
 						</div>
 					</div>
 					<!--End Photo Container 1-->
+					
+					<!--Photo-Container 2-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_2.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 2-->
+					
+					<!--Photo-Container 3-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 3-->
+					
+					<!--Photo-Container 4-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_4.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 4-->
+					
+					<!--Photo-Container 5-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 5-->
+					
+					<!--Photo-Container 6-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_6.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 6-->
+					
+					<!--Photo-Container 7-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 7-->
+					
+					<!--Photo-Container 8-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_8.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 8-->
+					
+					<!--Photo-Container 9-->
+					<div>
+						<div>
+						<img src="./images/thumb/thumbnail_9.jpg" alt="" width="300" height="250">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo Container 9-->
 					
 					
 				</div>
@@ -54,12 +151,12 @@
 		
 		<!--RSVP-->
 		<section>
-			<div>
+			<div id="contact">
 				<div>
 					<h1>Reservations</h1>
 					<div>
-						<h2><span>Your adventure is just around the moon.</span>
-							<br>Reserve <em>your</em> flight today!
+						<h2><span>Your <em>adventure</em> is just around the moon.</span>
+							<br>Reserve your flight today!
 						</h2>
 						<p>
 							Please provide us with your basic contact information.
@@ -86,7 +183,7 @@
 		
 		<!--FOOTER-->
 		<div>
-			<a href="https://www.nasa.gov/" target="new">Nasa's Main Website</a>
+			<a href="https://www.nasa.gov/" target="new">Nasa's Main Website</a><br>
 			www.thespacestation.space &nbsp;|&nbsp; &copy; 2022
 		</div>
 		<!--END FOOTER-->
